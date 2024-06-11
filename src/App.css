@@ -1,0 +1,16 @@
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
