@@ -41,6 +41,7 @@ export default function App() {
         <Form.Control
           onChange={(e) => setValue(e.target.value)}
           onKeyPress={handleKeyPress}
+          placeholder="Введите задачу"
         />
         <Button onClick={add}>+</Button>
       </div>
